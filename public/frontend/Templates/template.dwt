@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="../images/logo-shop.png" type="x-icon">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/font-awesome.css">
+<link rel="stylesheet" href="../css/styleTemplete.css">
+<link rel="stylesheet" href="../css/mainStyle.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid bg_banner1"></div>
+		<div class="container topbar">
+			<div class="topbar-left">
+				<div class="phone">
+					<i class="fa fa-phone"></i>
+					<span>(+84)0969363678</span>
+				</div>
+				<div class="mail">
+					<i class="fa fa-envelope"></i>
+					<span>KMShop@gmail.com</span>
+				</div>
+			</div>
+			<div class="topbar-right">
+				<div class="account">
+					<a href="../quan-ly-tai-khoan.html"><i class="fa fa-address-card"></i> <span>tài khoản</span></a>
+				</div>
+				<span class="line">|</span>
+				<div class="login">
+					<a href="../dang-nhap.html"><i class="fa fa-user"></i> <span>đăng nhập</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="container-fluid bottombar">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				  <a class="navbar-brand" href="../trangchu.html"><span>km</span>shop</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+					  <li class="nav-item active">
+						<a class="nav-link" href="../trangchu.html">trang chủ</a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  sản phẩm
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						  <a class="dropdown-item" href="../vay-thoi-trang.html">váy thời trang</a>
+						  <a class="dropdown-item" href="../do-bo-chau-au.html">đồ bộ châu âu</a>
+						  <a class="dropdown-item" href="../ao-khoac.html">áo khoác</a>
+						</div>
+					  </li>
+						<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  phụ kiện
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+						  <a class="dropdown-item" href="../mat-kinh.html">mắt kính</a>
+						  <a class="dropdown-item" href="../tui-xach.html">túi xách</a>
+						</div>
+					  </li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+					  <input class="form-control mr-sm-2" type="search" placeholder="Search">
+					  <button class="btn my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+					</form>
+					<div class="shoppingCart">
+					  <a href="../gio-hang.html"><i class="fa fa-cart-plus"></i><span>0</span></a>  
+					</div>
+				  </div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- TemplateBeginEditable name="contents" -->
+	<main></main>
+	<!-- TemplateEndEditable -->
+	<footer class="container-fluid footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-2 col-lg-2 ol-md-4 col-sm-12 footer-info">
+					<h3>thông tin</h3>
+					<p>sản phẩm mới <br>
+					   sản phẩm nổi bật <br>
+					   phụ kiện <br>
+					   khuyến mãi <br>
+					</p>
+				</div>
+				<div class="col-xl-2 col-lg-2 ol-md-4 col-sm-12 footer-services">
+					<h3>dịch vụ</h3>
+					<p>giới thiệu về KM <br>
+					   mua hàng <br>
+					   màu sắc <br>
+					   liên hệ <br>
+					</p>
+				</div>
+				<div class="col-xl-2 col-lg-2 ol-md-4 col-sm-12 footer-account">
+					<h3>hỗ trợ</h3>
+					<p>liên hệ <br>
+					   đặc hàng <br>
+					   F.A.Q <br>
+					   bảo mật <br>
+					</p>
+				</div>
+				<div class="col-xl-3 col-lg-3 ol-md-6 col-sm-12 footer-about-us">
+					<h3>kmshop</h3>
+					<p>KMshop là hệ thống bán hàng vô cùng uy tín, với nhiều sản phẩm đa dạng và kinh nghiệm hơn 10 năm trong thế giới thời trang</p>
+				</div>
+				<div class="col-xl-3 col-lg-3 ol-md-6 col-sm-12 footer-contact">
+					<h3>liên hệ</h3>
+					<p><span>địa chỉ:</span> 131/10 quận 12, tp.hồ chí minh <br>
+					<span>điện thoại:</span> (+84)0969363678 <br>
+					<span>email:</span> KMShop@gmail.com</p>
+					<ul>
+						<li><i class="fa fa-twitter"></i></li>
+						<li><i class="fa fa-facebook"></i></li>
+						<li><i class="fa fa-google-plus"></i></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<!-- TemplateBeginEditable name="js" -->js<!-- TemplateEndEditable --> 
+	<script>
+		$(window).resize(function(e){
+			var chieucao = $(".product_img").height();
+			$(".product_background").height(chieucao);
+		})
+	</script>
+</body>
+</html>

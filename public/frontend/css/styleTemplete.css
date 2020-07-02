@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: roboto-r;
+	src: url("../Fonts/Roboto-Regular.ttf");
+}
+@font-face{
+	font-family: roboto-b;
+	src: url("../Fonts/Roboto-Bold.ttf");
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: roboto-r;
+	color: #2e2e2e;
+}
+.bg_banner1{
+	width: 100%;
+	height: 200px;
+	background-image: url("../images/banner2.PNG");
+	background-size: cover;
+}
+.topbar, .bottombar{
+	margin-top: 10px;
+}
+.topbar-left, .phone, .mail, .account, .login, .line{
+	float: left;
+	padding: 0 10px;
+}
+.topbar-right{
+	float: right;
+}
+.topbar-left span, .topbar-right a{
+	color: #2e2e2e;
+	text-decoration: none;
+}
+.bottombar{
+	width: 100%;
+	min-height: 50px;
+	background: #2e2e2e;
+}
+.bottombar .bg-dark{
+	background-color: #2e2e2e !important;
+}
+.bottombar .navbar-brand span{
+	font-family: roboto-b;
+	font-size: 24px;
+}
+.bottombar .navbar a, .topbar-right span{
+	text-transform: uppercase;
+}
+.bottombar .btn{
+	border-radius: 50%;
+	color: #fff;
+	border-color: #fff;
+}
+.bottombar .form-inline, .bottombar .shoppingCart{
+	margin-left: 20px;
+}
+.bottombar .shoppingCart a{
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
+.bottombar .shoppingCart span{
+	margin-left: 5px;
+	background: #ED145B;
+	padding: 5px;
+}
+.footer{
+	margin-top: 30px;
+	background: #2e2e2e;
+	padding: 50px 0;
+	color: #fff;
+}
+.footer h3{
+	font-family: roboto-b;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.footer p{
+	text-transform: capitalize;
+	padding: 10px 0;
+	margin-bottom: 0;
+}
+.footer-contact ul{
+	list-style: none;
+}
+.footer-contact ul li{
+	margin-right: 15px;
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	width: 30px;
+	height: 30px;
+}
+.footer-contact ul li:nth-child(1){
+	background: #1DA1F2;
+}
+.footer-contact ul li:nth-child(2){
+	background: #3B5998;
+}
+.footer-contact ul li:nth-last-child(1){
+	background: #EA4335;
+}
+.footer-contact ul li i{
+	font-size: 20px;
+	color: #fff;
+}
+
+
+/*responsive màn ipad pro*/
+@media screen and (max-width: 1100px){ 
+	
+}
+/*responsive màn ipad mini*/
+@media screen and (max-width: 992px){
+	.bottombar .form-inline, .bottombar .shoppingCart{
+		margin-left: 0;	
+	}
+}
+/*responsive màn mobile nằm ngang*/
+@media screen and (max-width: 700px){
+	.topbar{
+		font-size: 12px;
+	}
+	.topbar-left .phone, .topbar-left .mail{
+		float: none;
+	}
+	.topbar-right .account, .topbar-right .login, .topbar-left{
+		padding: 0;
+	}
+	.topbar-right .line{
+		padding: 0 5px;
+	}
+	.topbar-right{
+		margin-top: 10px;
+	}
+}
+/*responsive màn iphone5 trở xuống*/
+@media screen and (max-width: 320px){
+	.topbar-left{
+		display: none;
+	}
+	.topbar-right{
+		float: none;
+	}
+}
